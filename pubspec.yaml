@@ -1,0 +1,30 @@
+name: guffgaff
+description: Cross-platform social media app built with Flutter & Firebase
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  firebase_messaging: ^15.1.2
+  flutter_webrtc: ^0.12.1
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.1
+  flutter_local_notifications: ^17.2.3
+  animations: ^2.0.11
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
